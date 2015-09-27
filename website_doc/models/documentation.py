@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+##############################################################################
+# For copyright and license notices, see __openerp__.py file in module root
+# directory
+##############################################################################
 from openerp import models, fields, api
 from openerp.osv import osv
 
@@ -98,8 +102,10 @@ class Documentation(models.Model):
         'res.groups',
         'website_doc_toc_group_rel',
         'website_toc_id', 'gid', 'Groups',
-        help="If you have groups, the visibility of this TOC will be based on these groups. "\
-            "If this field is empty, Odoo will compute visibility based on the related object's read access.")
+        help="If you have groups, the visibility of this TOC will be based on\
+        these groups. "
+        "If this field is empty, Odoo will compute visibility based on the\
+        related object's read access.")
 
     @api.one
     @api.depends('google_doc_code', 'google_doc_height')

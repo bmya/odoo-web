@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+##############################################################################
+# For copyright and license notices, see __openerp__.py file in module root
+# directory
+##############################################################################
 from openerp import fields, models, api
 
 
@@ -17,8 +21,10 @@ class website_menu(models.Model):
         'Groups',
         domain=[('is_portal', '=', True)],
         context={'default_is_portal': True},
-        help="If you have groups, the visibility of this menu will be based on these groups. "\
-            "If this field is empty, Odoo will compute visibility based on the related object's read access.")
+        help="If you have groups, the visibility of this menu will be based\
+        on these groups. "
+        "If this field is empty, Odoo will compute visibility based on the\
+        related object's read access.")
 
     @api.one
     @api.onchange('group_ids')

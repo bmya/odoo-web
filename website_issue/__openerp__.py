@@ -3,12 +3,13 @@
     'category': 'Website',
     'website': 'www.ingadhoc.com',
     'summary': 'Create Issues From a Website Form',
-    'version': '1.0',
+    'version': '8.0.1.0.0',
     'description': """
 Website Issue
 =============
         """,
-    'author': 'Ing ADHOC',
+    'author': 'ADHOC SA',
+    'website': 'www.adhoc.com.ar',
     'depends': [
         'website_partner',
         'project_issue',
