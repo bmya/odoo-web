@@ -1,4 +1,4 @@
-openerp.web_hw_collector = function(instance) {
+odoo.web_hw_collector = function(instance) {
     instance.web_hw_collector.HwCollector = instance.web.form.FieldChar.extend({
         template: "HwCollector",
         start: function() {

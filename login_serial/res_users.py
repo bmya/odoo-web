@@ -1,6 +1,6 @@
-from openerp.addons.product.product import check_ean, sanitize_ean13
-from openerp import api, exceptions, fields,  _
-from openerp.models import Model
+from odoo.addons.product.product import check_ean, sanitize_ean13
+from odoo import api, exceptions, fields,  _
+from odoo.models import Model
 import random
 
 

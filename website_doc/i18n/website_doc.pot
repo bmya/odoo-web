@@ -118,7 +118,7 @@ msgid "Groups"
 msgstr ""
 
 #. module: website_doc
-#. openerp-web
+#. odoo-web
 #: code:addons/website_doc/static/src/xml/website_doc.xml:7
 #, python-format
 msgid "Help and Doc"

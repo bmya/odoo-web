@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<openerp>
+<odoo>
     <data>
 
         <template id="login_serial.webclient_bootstrap" name="Webclient Bootstrap">
@@ -11,7 +11,7 @@
                     <t t-call-assets="web.assets_backend"/>
                     <script type="text/javascript">
                         $(function() {
-                            var s = new openerp.init();
+                            var s = new odoo.init();
                             <t t-if="init">
                                 <t t-raw="init"/>
                             </t>
@@ -36,7 +36,7 @@
                         <t t-call="web.menu"/>
                     </div>
                 </nav>
-                <div class="openerp openerp_webclient_container">
+                <div class="odoo odoo_webclient_container">
                     <table class="oe_webclient">
                         <tr>
                             <td class="oe_leftbar" valign="top">
@@ -104,4 +104,4 @@
         </template>
 
     </data>
-</openerp>
+</odoo>

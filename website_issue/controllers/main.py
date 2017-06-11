@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
-# For copyright and license notices, see __openerp__.py file in module root
+# For copyright and license notices, see __odoo__.py file in module root
 # directory
 ##############################################################################
 import base64
@@ -8,9 +8,9 @@ import base64
 import werkzeug
 import werkzeug.urls
 
-from openerp import http, SUPERUSER_ID
-from openerp.http import request
-from openerp.tools.translate import _
+from odoo import http, SUPERUSER_ID
+from odoo.http import request
+from odoo.tools.translate import _
 
 
 class contactus(http.Controller):

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<openerp>
+<odoo>
     <data noupdate="1">
 
 <!-- we make documentation public for everyone -->
@@ -24,4 +24,4 @@
     </record>
 
     </data>
-</openerp>
+</odoo>

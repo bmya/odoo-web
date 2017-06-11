@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
 <data>
 
 <template id="issue_snippet_structure" inherit_id="website.snippets" name="Issue Snippet - Structure">
@@ -83,4 +83,4 @@
 </template>
 
 </data>
-</openerp>
+</odoo>
